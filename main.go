@@ -10,7 +10,7 @@ func main() {
   fmt.Printlin(Count(os.stdin))
 }
 
-func Count(r io.Reader) {
+func Count(r io.Reader) int {
   // Defining a scanner which reads input from Reader io
   scanner := bufio.NewScanner(r)
 
